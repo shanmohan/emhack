@@ -8,10 +8,12 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="bower_components/angularjs-slider/dist/rzslider.css"/>
     <!-- endbuild -->
   </head>
   <body ng-app="emhackApp">
@@ -21,7 +23,7 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
-      <div class="navbar navbar-default" role="navigation">
+      <div class="navbar navbar-inverse" role="navigation">
         <div class="container">
           <div class="navbar-header">
 
@@ -32,15 +34,15 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">ngDirDepthNWide</a>
+            <a class="navbar-brand" href="#/">Pitstop</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+              <!-- <li class="active"><a href="#/">Home</a></li> -->
+              <i class="ion-ios-toggle-outline"></i>
+
             </ul>
           </div>
         </div>
@@ -53,16 +55,31 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-heart text-danger"></span> from the EmHack team</p>
       </div>
     </div>
 
 
+<<<<<<< HEAD
+=======
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<!--      <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script> -->
+
+>>>>>>> afc975bc6a350bbdfb65ad993f70de142695505f
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angularjs-slider/dist/rzslider.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
