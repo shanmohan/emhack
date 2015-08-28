@@ -45,7 +45,7 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
     if (!!$scope.medical) selectedTags.push('medical');
     if (!!$scope.events) selectedTags.push('events');
     if (!!$scope.health) selectedTags.push('health');
-    
+
 
     angular.forEach(productTags,function(tag){
       if (selectedTags.indexOf(tag)>-1){
