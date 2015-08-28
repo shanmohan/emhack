@@ -1,2 +1,13 @@
 This is a hotel view
-<a class="btn btn-primary" ng-click="getCarOptions()">get car Option</button>
+<a class="btn btn-primary" ng-click="getCarOptions()">get car Option</a>
+<div ng-repeat="car in cars">
+  <div class="row">
+    <div class="col-sm-4"><img src="{{car.url}}"></div>
+    <div class="col-sm-8">
+      <span> <b> Sipp : </b> {{car.sipp}} </span>
+      <span> <b> Name : </b>{{car.vehicle}} </span>
+      <span><b> Pickup Point  : </b>{{car.location.pick_up.address}} </span>
+      <span> <b> Distance  : </b>{{car.location.pick_up.distance_to_search_location_in_km}} Km </span>
+    </div>
+  </div>
+</div>
