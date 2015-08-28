@@ -11,9 +11,19 @@ $ionicons-font-path: "../fonts/";
 @import "utilities.scss";
 @import "pitstop.scss";
 
+
 //Components
 @import "angular-slider/slider.scss";
-
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#street-view {
+  min-height: 350px;;
+  height: 100%;
+}
 body{
     font-family: 'Work Sans';
     background-color: #f7f7f7;
@@ -33,4 +43,10 @@ span.ohoh {
 }
 span.hehe {
     text-decoration: initial;
+}
+
+.explore-list{
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+     width: 100%;
+}
 }
