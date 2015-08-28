@@ -13,13 +13,12 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
 
   console.log('calling the dataService');
 
-  promise.then(function(data){
+  promise.then(function (data) {
 
     console.log(data);
 
-    $scope.products =  data;
+    $scope.products = data;
   })
 
 
-
-  });
+});
