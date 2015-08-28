@@ -54,6 +54,34 @@
         }
       ]
     },
+    { 
+31       "activity": "Ski Dubai", 
+32       "duration": 4, 
+33       "price": 100, 
+34       "distance": "25 KM", 
+35       "closing_in" : 10, 
+36       "next_starts_on" : 60, 
+37       "tags": [ 
+38         "sports" 
+39       ], 
+40       "images": [ 
+41         "SkiDubai.jpg", 
+42         "SkiDubai2.jog", 
+43         "SkiDubai3.jpg" 
+44       ], 
+45       "coupons_sold": 5, 
+46       "coupons_left": 5, 
+47       "likes": 6, 
+48       "rating": 3.5, 
+49       "reviews": [ 
+50         { 
+51           "reviewer": "shanmohan", 
+52           "review": "It was awesome", 
+53           "reviewed_on": "12-0-2015" 
+54         } 
+55       ] 
+56     }, 
+
     {
       "activity": "Aquaventure",
       "duration": 10,
