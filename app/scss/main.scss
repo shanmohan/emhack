@@ -1,4 +1,5 @@
 @import "material-bootstrap/_variables.scss";
+$ionicons-font-path: "../bower_components/ionicons/fonts/";
 
 //Bootstrap
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -16,6 +17,3 @@ body{
     font-family: 'Work Sans';
     // background: url('../images/try.jpg') repeat;
 }
-
-
-//New Project
