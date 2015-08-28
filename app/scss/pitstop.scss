@@ -1,0 +1,80 @@
+.btn-booknow {
+    display: block;
+    padding-left: 15px;
+    i{
+    font-size: 1.5em;
+    }
+    span{
+      font-size: 1.1em;
+      vertical-align: top;
+      padding-top: 4px;
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+
+.pit-filter{
+    box-shadow: inset 0px -5px 10px -5px rgba(0,0,0,0.4);
+    padding: 0 0 2.2em;
+
+    h5{
+        font-size: 1.1em;
+        font-weight: 500;
+        margin: 18px 0 4px;
+    }
+}
+.navbar-nav{
+    .main-nav{
+        vertical-align: top;
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+
+
+
+.explore-list {
+    p{
+        font-size: 1.2em;
+        margin: 4px 0 0;
+    }
+    .left-desc {
+        margin: 15px 0 0;
+    }
+
+    .right-desc {
+        .seat-info {
+            span {
+                background-color: #e51c23;
+                color: #fff;
+                font-size: 1.0em;
+            }
+        }
+        .cost-info {
+            border: 1px dashed #aaa;
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.4em;
+            margin-bottom: 16px;
+        }
+    }
+
+
+
+
+}
+
+@media (min-width: 992px) {
+    .right-desc {
+      text-align: right;
+      margin: 0 20px 0 inherit;
+    }
+    .btn-booknow {
+        display: block;
+        float: right;
+    }
+}

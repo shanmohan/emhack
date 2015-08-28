@@ -1,10 +1,17 @@
 'use strict';
 
-angular
-  .module('emhackApp', ['rzModule','ui.router']).config(function ($stateProvider, $urlRouterProvider, $httpProvider) {
-    $httpProvider.defaults.headers.common['Content-Type'] = 'application/json';
-    $httpProvider.defaults.headers.common['Accept'] = 'application/json';
-    $urlRouterProvider.otherwise('/');
+/**
+ * @ngdoc overview
+ * @name ngDirDepthNWideApp
+ * @description
+ * # ngDirDepthNWideApp
+ *
+ * Main module of the application.
+ */
+angular.module('emhackApp', ['rzModule','ui.router', 'ui.bootstrap']).config(function ($stateProvider, $urlRouterProvider, $httpProvider) {
+      $httpProvider.defaults.headers.common['Content-Type'] = 'application/json';
+      $httpProvider.defaults.headers.common['Accept'] = 'application/json';
+      $urlRouterProvider.otherwise('/');
 
     $stateProvider.state('main', {
       url: '/',

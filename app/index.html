@@ -9,11 +9,11 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" />
+    <link rel="stylesheet" href="bower_components/angularjs-slider/dist/rzslider.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="bower_components/angularjs-slider/dist/rzslider.css"/>
     <!-- endbuild -->
     <style>
       html, body {
@@ -51,9 +51,11 @@
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
-            <ul class="nav navbar-nav">
-              <!-- <li class="active"><a href="#/">Home</a></li> -->
-              <i class="ion-ios-toggle-outline"></i>
+            <ul class="nav navbar-nav pull-right">
+              <li class="active"><a href="#/pitstop" data-toggle="collapse"  data-target="#collapseExample" >
+                <i class="ion-ios-toggle-outline"></i> <span class="main-nav">Explore options</span></a>
+              </li>
+        <!--       <li><a href="#/"> <i class="ion-ios-information-outline"></i></a></li> -->
 
             </ul>
           </div>
@@ -61,13 +63,13 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div ui-view></div>
     </div>
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart text-danger"></span> from the EmHack team</p>
+        <p>Made with <span class="ion-ios-heart text-danger"></span> by the EmHack team</p>
       </div>
     </div>
 
@@ -77,8 +79,8 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="bower_components/angularjs-slider/rzslider.js"></script>
-
     <!-- endbower -->
     <!-- endbuild -->
 
