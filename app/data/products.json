@@ -5,8 +5,8 @@
       "duration": 4,
       "price": 60,
       "distance": "3 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports"
       ],
@@ -28,12 +28,39 @@
       ]
     },
     {
-      "activity": "Aquaventure",
+      "activity": "Drive Audi R8 V10 Supercar @ Dubai Autodrome ",
       "duration": 5,
-      "price": 100,
+      "price": 420,
+      "distance": "35 KM",
+      "closing_in": 10,
+      "next_starts_on": 60,
+      "tags": [
+        "sports"
+      ],
+      "images": [
+        "Dubai-autodrome.jpg",
+        "Dubai-autodrome2.jog",
+        "Dubai-autodrome3.jpg"
+      ],
+      "coupons_sold": 5,
+      "coupons_left": 5,
+      "likes": 6,
+      "rating": 3.5,
+      "reviews": [
+        {
+          "reviewer": "shanmohan",
+          "review": "It was awesome",
+          "reviewed_on": "12-0-2015"
+        }
+      ]
+    },
+    {
+      "activity": "Aquaventure",
+      "duration": 10,
+      "price": 200,
       "distance": "10 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports",
         "leisure",
@@ -63,11 +90,11 @@
     },
     {
       "activity": "Dubai Shopping Festival",
-      "duration": 5,
-      "price": 100,
+      "duration": 15,
+      "price": 300,
       "distance": "10 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports",
         "leisure",
@@ -97,11 +124,11 @@
     },
     {
       "activity": "Gold Souq",
-      "duration": 5,
-      "price": 100,
+      "duration": 20,
+      "price": 400,
       "distance": "10 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports",
         "leisure",
@@ -131,11 +158,11 @@
     },
     {
       "activity": "Al Arab Restaurent",
-      "duration": 5,
-      "price": 100,
+      "duration": 22,
+      "price": 500,
       "distance": "10 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports",
         "leisure",
@@ -164,12 +191,39 @@
       ]
     },
     {
-      "activity": "Desert Safari",
-      "duration": 5,
+      "activity": "Ski Dubai",
+      "duration": 4,
       "price": 100,
+      "distance": "25 KM",
+      "closing_in": 10,
+      "next_starts_on": 60,
+      "tags": [
+        "sports"
+      ],
+      "images": [
+        "SkiDubai.jpg",
+        "SkiDubai2.jog",
+        "SkiDubai3.jpg"
+      ],
+      "coupons_sold": 5,
+      "coupons_left": 5,
+      "likes": 6,
+      "rating": 3.5,
+      "reviews": [
+        {
+          "reviewer": "shanmohan",
+          "review": "It was awesome",
+          "reviewed_on": "12-0-2015"
+        }
+      ]
+    },
+    {
+      "activity": "Desert Safari",
+      "duration": 8,
+      "price": 600,
       "distance": "10 KM",
-      "closing_in" : 10,
-      "next_starts_on" : 60,
+      "closing_in": 10,
+      "next_starts_on": 60,
       "tags": [
         "sports",
         "leisure",
