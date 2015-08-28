@@ -1,6 +1,8 @@
-// @import "material-bootstrap/_variables.scss";
-// @import "material-bootstrap/_bootswatch.scss";
-
+@import "material-bootstrap/_variables.scss";
 
 //Bootstrap
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "ionicons/scss/ionicons.scss";
+@import "material-bootstrap/_bootswatch.scss";
+
