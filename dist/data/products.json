@@ -12,7 +12,7 @@
     "likes":20,
     "rating":3.5,
     "Review":"",
-    "images":["dubai-golf-and-yatch-club.jpg","dubai-golf-and-yatch-club2.jpg","dubai-golf-and-yatch-club3jpg"]
+    "images":["dubai-golf-and-yatch-club.jpg","dubai-golf-and-yatch-club2.jpg","dubai-golf-and-yatch-club3.jpg"]
   },
   {
     "tags":"sports",
@@ -90,7 +90,7 @@
     "images":["SpeedBoat.JPG","SpeedBoat2.JPG","SpeedBoat3.JPG"]
   },
   {
-    "tags":"Shopping",
+    "tags":"shopping",
     "activity":"Gold Souq",
     "distance":10,
     "duration":3,
@@ -105,7 +105,7 @@
     "images":["goldsouq.JPG","goldsouq2.JPG","goldsouq3.JPG"]
   },
   {
-    "tags":"Shopping",
+    "tags":"shopping",
     "activity":"Dubai Mall",
     "distance":15,
     "duration":4,
@@ -120,7 +120,7 @@
     "images":["DubaiMall.JPG","dubaimall2.JPG","dubaimall3.JPG"]
   },
   {
-    "tags":"Shopping",
+    "tags":"shopping",
     "activity":"Shopping festival",
     "distance":30,
     "duration":5,
@@ -135,7 +135,7 @@
     "images":["DSF2.JPG","DSF3.JPG","DSF4.JPG"]
   },
   {
-    "tags":"Eating",
+    "tags":"eating",
     "activity":"Zengo - An Artful Blend of Asian and Latin Flavours",
     "distance":32,
     "duration":3,
@@ -150,7 +150,7 @@
     "images":["Zengo.JPG","Zengo2.JPG","Zengo3.JPG"]
   },
   {
-    "tags":"Eating",
+    "tags":"eating",
     "activity":"Indego by Vineet - Dubai's best Indian Restaurant",
     "distance":30,
     "duration":3,
@@ -165,7 +165,7 @@
     "images": ["IndegobyVineet.JPG","IndegobyVineet2.JPG","IndegobyVineet3.JPG"]
   },
   {
-    "tags":"Eating",
+    "tags":"eating",
     "activity":"Armani Ristorante-Italian Restaurant",
     "distance":14,
     "duration":4,
@@ -180,7 +180,7 @@
     "images":["Armaniristorante.JPG","Armaniristorante2.JPG","Armaniristorante3.JPG"]
   },
   {
-    "tags":"Events",
+    "tags":"events",
     "activity":"Horse Racing",
     "distance":30,
     "duration":5,
@@ -195,7 +195,7 @@
     "images":["Dubai-World-Cup.JPG","Dubai-World-Cup2.JPG","Dubai-World-Cup3.JPG"]
   },
   {
-    "tags":"Medical",
+    "tags":"medical",
     "activity":"Dental Care",
     "distance":8,
     "duration":3,
@@ -210,7 +210,7 @@
     "images":["DentalCare.JPG","DentalCare2.JPG","DentalCare3.JPG"]
   },
   {
-    "tags":"Medical",
+    "tags":"medical",
     "activity":"Facial Rejuvnation",
     "distance":14,
     "duration":4,
