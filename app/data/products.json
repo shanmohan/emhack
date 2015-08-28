@@ -7,6 +7,8 @@
       "distance": "3 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports"
       ],
@@ -34,6 +36,8 @@
       "distance": "35 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports"
       ],
@@ -95,6 +99,8 @@
       "distance": "10 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports",
         "leisure",
@@ -129,6 +135,8 @@
       "distance": "10 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports",
         "leisure",
@@ -163,6 +171,8 @@
       "distance": "10 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports",
         "leisure",
@@ -197,6 +207,8 @@
       "distance": "25 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports"
       ],
@@ -224,6 +236,8 @@
       "distance": "10 KM",
       "closing_in": 10,
       "next_starts_on": 60,
+      "lng" : -122.254811,
+      "lat" : 37.869260,
       "tags": [
         "sports",
         "leisure",

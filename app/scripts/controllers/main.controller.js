@@ -15,13 +15,12 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
   var promise = dataService.getProducts();
 
   promise.then(function (data) {
-    console.log(data);
     $scope.products = data.products;
 
   });
 
   $scope.filterProducts = function (cost, time) {
-    console.log(parseInt(cost, 10));
+    if (angular.isUndefined($scope.products)) return;
     return $scope.products.filter(function (product) {
       return (parseInt(product.price, 10) <= parseInt(cost, 10) && (parseInt(product.duration, 10) <= parseInt(time, 10)))
     })
