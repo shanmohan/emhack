@@ -9,11 +9,22 @@ $ionicons-font-path: "../bower_components/ionicons/fonts/";
 
 //Project
 @import "utilities.scss";
+@import "pitstop.scss";
 
 //Components
 @import "angular-slider/slider.scss";
 
 body{
     font-family: 'Work Sans';
-    // background: url('../images/try.jpg') repeat;
+    background-color: #f7f7f7;
+    overflow-y: scroll;
+}
+
+.navbar-nav{
+    i {
+        font-size: 2.0em;
+    }
+}
+.navbar {
+  margin-bottom: 0px;
 }
