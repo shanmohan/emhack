@@ -9,17 +9,22 @@
  */
 angular.module('emhackApp').controller('MainController', function ($scope, dataService) {
 
-        $scope.priceSlider = 250;
+  $scope.priceSlider = 250;
+  $scope.timeSlider = 1;
+
   var promise = dataService.getProducts();
 
-  console.log('calling the dataService');
-
   promise.then(function (data) {
-
     console.log(data);
+    $scope.products = data.products;
 
-    $scope.products = data;
-  })
+  });
 
+  $scope.filterProducts = function (cost, time) {
+    console.log(parseInt(cost, 10));
+    return $scope.products.filter(function (product) {
+      return (parseInt(product.price, 10) <= parseInt(cost, 10) && (parseInt(product.duration, 10) <= parseInt(time, 10)))
+    })
+  }
 
 });
