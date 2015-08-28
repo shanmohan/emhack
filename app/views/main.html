@@ -22,7 +22,7 @@
        <h5>Activities you maybe interested in</h5>
 
        <div class="btn-group" data-toggle="buttons">
-        <input type="checkbox" ng-change="checkChanged()" ng-model="sports" />Sports
+        <input type="checkbox" ng-change="checkChanged()" ng-model="sports" /><span ng-class="(sports ? 'ohoh': 'hehe')">Sports</span>
         <input type="checkbox" ng-change="checkChanged()" ng-model="leisure" />Leisure
         <input type="checkbox" ng-change="checkChanged()" ng-model="shopping" />Shopping
         <input type="checkbox" ng-change="checkChanged()" ng-model="eating" />Eating
