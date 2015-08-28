@@ -11,7 +11,7 @@ angular.module('emhackApp').controller('HotelController', function ($scope,skysc
     for(var i=0;i<response.data.cars.length;i++){
       var elt =response.data.cars[i];
       elt.url = response.data.images[i+10].url;
-      if(i===10)break;
+      if(i===5)break;
       $scope.cars.push(elt);
     }
     console.log($scope.cars);
