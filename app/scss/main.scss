@@ -49,4 +49,29 @@ span.hehe {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
      width: 100%;
 }
+.carousel-control .glyphicon-chevron-right:before {
+  font-family: "Ionicons";
+    content: "\f3d3";
+    color: #fff;
+}
+.carousel-control .glyphicon-chevron-left:before {
+  font-family: "Ionicons";
+    content: "\f3d2";
+    color: #fff;
+}
+}
+
+
+.flight-quote{
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 24px;
+  border-bottom: 1px dashed #bcbcbc;
+  i{
+    font-size: 1.3em;
+    position: relative;
+    top: 3px;
+  }
 }

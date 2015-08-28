@@ -27,7 +27,7 @@
     "likes":100,
     "rating":4.5,
     "Review":"",
-    "images":["Dubai-autodrome.JPG","Dubai-autodrome2.JPG","Dubai-autodrome3.JPG"]
+    "images":["Dubai-autodrome.jpg","Dubai-autodrome2.jpg","Dubai-autodrome3.jpg"]
   },
   {
     "tags":"sports",
@@ -42,7 +42,7 @@
     "likes":300,
     "rating":4,
     "Review":"",
-    "images":["SkiDubai.JPG","SkiDubai2.JPG","SkiDubai3.JPG"]
+    "images":["SkiDubai.jpg","SkiDubai2.jpg","SkiDubai3.jpg"]
   },
   {
     "tags":"adventure",
@@ -57,7 +57,7 @@
     "likes":100,
     "rating":4,
     "Review":"",
-    "images":["SKYdive.JPG","SKYdive2.JPG","SKYdive3.JPG"]
+    "images":["SKYdive.jpg","SKYdive2.jpg","SKYdive3.jpg"]
   },
   {
     "tags":"adventure",
@@ -72,7 +72,7 @@
     "likes":100,
     "rating":3.5,
     "Review":"",
-    "images":["Dubai_Desert_Safari.JPG","Dubai_Desert_Safari2.JPG","Dubai_Desert_Safari3.JPG"]
+    "images":["Dubai_Desert_Safari.jpg","Dubai_Desert_Safari2.jpg","Dubai_Desert_Safari3.jpg"]
   },
   {
     "tags":"adventure",
@@ -87,7 +87,7 @@
     "likes":30,
     "rating":4.3,
     "Review":"",
-    "images":["SpeedBoat.JPG","SpeedBoat2.JPG","SpeedBoat3.JPG"]
+    "images":["SpeedBoat.jpg","SpeedBoat2.jpg","SpeedBoat3.jpg"]
   },
   {
     "tags":"shopping",
@@ -102,7 +102,7 @@
     "likes":300,
     "rating":4.5,
     "Review":"",
-    "images":["goldsouq.JPG","goldsouq2.JPG","goldsouq3.JPG"]
+    "images":["goldsouq.jpg","goldsouq2.jpg","goldsouq3.jpg"]
   },
   {
     "tags":"shopping",
@@ -117,7 +117,7 @@
     "likes":50,
     "rating":3,
     "Review":"",
-    "images":["DubaiMall.JPG","dubaimall2.JPG","dubaimall3.JPG"]
+    "images":["DubaiMall.jpg","dubaimall2.jpg","dubaimall3.jpg"]
   },
   {
     "tags":"shopping",
@@ -132,7 +132,7 @@
     "likes":100,
     "rating":4.5,
     "Review":"",
-    "images":["DSF2.JPG","DSF3.JPG","DSF4.JPG"]
+    "images":["DSF2.jpg","DSF3.jpg","DSF4.jpg"]
   },
   {
     "tags":"eating",
@@ -147,7 +147,7 @@
     "likes":100,
     "rating":4,
     "Review":"",
-    "images":["Zengo.JPG","Zengo2.JPG","Zengo3.JPG"]
+    "images":["Zengo.jpg","Zengo2.jpg","Zengo3.jpg"]
   },
   {
     "tags":"eating",
@@ -162,7 +162,7 @@
     "likes":50,
     "rating":4,
     "Review":"",
-    "images": ["IndegobyVineet.JPG","IndegobyVineet2.JPG","IndegobyVineet3.JPG"]
+    "images": ["IndegobyVineet.jpg","IndegobyVineet2.jpg","IndegobyVineet3.jpg"]
   },
   {
     "tags":"eating",
@@ -177,7 +177,7 @@
     "likes":120,
     "rating":3,
     "Review":"",
-    "images":["Armaniristorante.JPG","Armaniristorante2.JPG","Armaniristorante3.JPG"]
+    "images":["Armaniristorante.jpg","Armaniristorante2.jpg","Armaniristorante3.jpg"]
   },
   {
     "tags":"events",
@@ -192,7 +192,7 @@
     "likes":50,
     "rating":3.5,
     "Review":"",
-    "images":["Dubai-World-Cup.JPG","Dubai-World-Cup2.JPG","Dubai-World-Cup3.JPG"]
+    "images":["Dubai-World-Cup.jpg","Dubai-World-Cup1.jpg","Dubai-World-Cup2.jpg"]
   },
   {
     "tags":"medical",
@@ -207,7 +207,7 @@
     "likes":100,
     "rating":2,
     "Review":"",
-    "images":["DentalCare.JPG","DentalCare2.JPG","DentalCare3.JPG"]
+    "images":["DentalCare.jpg","DentalCare2.jpg","DentalCare3.jpg"]
   },
   {
     "tags":"medical",
@@ -222,6 +222,6 @@
     "likes":120,
     "rating":3,
     "Review":"",
-    "images":["Facial-Rejuvenation.JPG","Facial-Rejuvenation2.JPG","Facial-Rejuvenation3.JPG"]
+    "images":["Facial-Rejuvenation.jpg","Facial-Rejuvenation2.jpg","Facial-Rejuvenation3.jpg"]
   }
 ]
