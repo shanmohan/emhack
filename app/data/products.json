@@ -1,31 +1,24 @@
 {
   "products": [
     {
-      "activity": "Golf @ ",
-      "duration": 5,
-      "price": 100,
-      "distance": "10 KM",
+      "activity": "3 Par 9 holes ",
+      "duration": 4,
+      "price": 60,
+      "distance": "3 KM",
       "closing_in" : 10,
       "next_starts_on" : 60,
       "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
+        "sports"
       ],
       "images": [
-        "x.jpg",
-        "y.jog",
-        "z.jpg"
+        "dubai-golf-and-yatch-club.jpg",
+        "dubai-golf-and-yatch-club2.jog",
+        "dubai-golf-and-yatch-club3.jpg"
       ],
       "coupons_sold": 5,
       "coupons_left": 5,
       "likes": 6,
-      "rating": 1.5,
+      "rating": 3.5,
       "reviews": [
         {
           "reviewer": "shanmohan",
