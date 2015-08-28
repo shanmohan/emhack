@@ -1,269 +1,227 @@
-{
-  "products": [
-    {
-      "activity": "3 Par 9 holes ",
-      "duration": 4,
-      "price": 60,
-      "distance": "3 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports"
-      ],
-      "images": [
-        "dubai-golf-and-yatch-club.jpg",
-        "dubai-golf-and-yatch-club2.jpg",
-        "dubai-golf-and-yatch-club3.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 3.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Drive Audi R8 V10 Supercar @ Dubai Autodrome ",
-      "duration": 5,
-      "price": 420,
-      "distance": "35 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports"
-      ],
-      "images": [
-        "Dubai-autodrome.jpg",
-        "Dubai-autodrome2.jpg",
-        "Dubai-autodrome3.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 3.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Aquaventure",
-      "duration": 10,
-      "price": 200,
-      "distance": "10 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
-      ],
-      "images": [
-        "x.jpg",
-        "y.jpg",
-        "z.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 1.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Dubai Shopping Festival",
-      "duration": 15,
-      "price": 300,
-      "distance": "10 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
-      ],
-      "images": [
-        "x.jpg",
-        "y.jpg",
-        "z.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 1.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Gold Souq",
-      "duration": 20,
-      "price": 400,
-      "distance": "10 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
-      ],
-      "images": [
-        "x.jpg",
-        "y.jpg",
-        "z.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 1.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Al Arab Restaurent",
-      "duration": 22,
-      "price": 500,
-      "distance": "10 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
-      ],
-      "images": [
-        "x.jpg",
-        "y.jpg",
-        "z.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 1.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Ski Dubai",
-      "duration": 4,
-      "price": 100,
-      "distance": "25 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports"
-      ],
-      "images": [
-        "SkiDubai.jpg",
-        "SkiDubai2.jpg",
-        "SkiDubai3.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 3.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    },
-    {
-      "activity": "Desert Safari",
-      "duration": 8,
-      "price": 600,
-      "distance": "10 KM",
-      "closing_in": 10,
-      "next_starts_on": 60,
-      "lng" : -122.254811,
-      "lat" : 37.869260,
-      "tags": [
-        "sports",
-        "leisure",
-        "shopping",
-        "eating",
-        "adventure",
-        "medical",
-        "events",
-        "health"
-      ],
-      "images": [
-        "x.jpg",
-        "y.jpg",
-        "z.jpg"
-      ],
-      "coupons_sold": 5,
-      "coupons_left": 5,
-      "likes": 6,
-      "rating": 1.5,
-      "reviews": [
-        {
-          "reviewer": "shanmohan",
-          "review": "It was awesome",
-          "reviewed_on": "12-0-2015"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "tags":"sports",
+    "activity":"3 Par 9 holes",
+    "distance":3,
+    "duration":4,
+    "closing_in":30,
+    "next_starts_on":60,
+    "price":60,
+    "coupons_sold":50,
+    "coupons_left":20,
+    "likes":20,
+    "rating":3.5,
+    "Review":"",
+    "images":["dubai-golf-and-yatch-club.jpg","dubai-golf-and-yatch-club2.jpg","dubai-golf-and-yatch-club3jpg"]
+  },
+  {
+    "tags":"sports",
+    "activity":"Drive Audi R8 V10 Supercar @ Dubai Autodrome",
+    "distance":35,
+    "duration":4,
+    "closing_in":15,
+    "next_starts_on":60,
+    "price":400,
+    "coupons_sold":20,
+    "coupons_left":10,
+    "likes":100,
+    "rating":4.5,
+    "Review":"",
+    "images":["Dubai-autodrome.JPG","Dubai-autodrome2.JPG","Dubai-autodrome3.JPG"]
+  },
+  {
+    "tags":"sports",
+    "activity":"Ski Dubai",
+    "distance":25,
+    "duration":4,
+    "closing_in":5,
+    "next_starts_on":45,
+    "price":55,
+    "coupons_sold":50,
+    "coupons_left":5,
+    "likes":300,
+    "rating":4,
+    "Review":"",
+    "images":["SkiDubai.JPG","SkiDubai2.JPG","SkiDubai3.JPG"]
+  },
+  {
+    "tags":"adventure",
+    "activity":"Sky dive over the pam",
+    "distance":20,
+    "duration":5,
+    "closing_in":10,
+    "next_starts_on":60,
+    "price":550,
+    "coupons_sold":15,
+    "coupons_left":10,
+    "likes":100,
+    "rating":4,
+    "Review":"",
+    "images":["SKYdive.JPG","SKYdive2.JPG","SKYdive3.JPG"]
+  },
+  {
+    "tags":"adventure",
+    "activity":"Desert Safari",
+    "distance":35,
+    "duration":5,
+    "closing_in":20,
+    "next_starts_on":60,
+    "price":100,
+    "coupons_sold":20,
+    "coupons_left":10,
+    "likes":100,
+    "rating":3.5,
+    "Review":"",
+    "images":["Dubai_Desert_Safari.JPG","Dubai_Desert_Safari2.JPG","Dubai_Desert_Safari3.JPG"]
+  },
+  {
+    "tags":"adventure",
+    "activity":"2-hour speedboat cruise around Dubai’s spectacular Palm Jumeirah",
+    "distance":20,
+    "duration":5,
+    "closing_in":20,
+    "next_starts_on":60,
+    "price":120,
+    "coupons_sold":30,
+    "coupons_left":10,
+    "likes":30,
+    "rating":4.3,
+    "Review":"",
+    "images":["SpeedBoat.JPG","SpeedBoat2.JPG","SpeedBoat3.JPG"]
+  },
+  {
+    "tags":"shopping",
+    "activity":"Gold Souq",
+    "distance":10,
+    "duration":3,
+    "closing_in":10,
+    "next_starts_on":30,
+    "price":20,
+    "coupons_sold":50,
+    "coupons_left":5,
+    "likes":300,
+    "rating":4.5,
+    "Review":"",
+    "images":["goldsouq.JPG","goldsouq2.JPG","goldsouq3.JPG"]
+  },
+  {
+    "tags":"shopping",
+    "activity":"Dubai Mall",
+    "distance":15,
+    "duration":4,
+    "closing_in":15,
+    "next_starts_on":30,
+    "price":20,
+    "coupons_sold":50,
+    "coupons_left":10,
+    "likes":50,
+    "rating":3,
+    "Review":"",
+    "images":["DubaiMall.JPG","dubaimall2.JPG","dubaimall3.JPG"]
+  },
+  {
+    "tags":"shopping",
+    "activity":"Shopping festival",
+    "distance":30,
+    "duration":5,
+    "closing_in":20,
+    "next_starts_on":30,
+    "price":30,
+    "coupons_sold":30,
+    "coupons_left":10,
+    "likes":100,
+    "rating":4.5,
+    "Review":"",
+    "images":["DSF2.JPG","DSF3.JPG","DSF4.JPG"]
+  },
+  {
+    "tags":"eating",
+    "activity":"Zengo - An Artful Blend of Asian and Latin Flavours",
+    "distance":32,
+    "duration":3,
+    "closing_in":20,
+    "next_starts_on":30,
+    "price":100,
+    "coupons_sold":10,
+    "coupons_left":5,
+    "likes":100,
+    "rating":4,
+    "Review":"",
+    "images":["Zengo.JPG","Zengo2.JPG","Zengo3.JPG"]
+  },
+  {
+    "tags":"eating",
+    "activity":"Indego by Vineet - Dubai's best Indian Restaurant",
+    "distance":30,
+    "duration":3,
+    "closing_in":15,
+    "next_starts_on":30,
+    "price":120,
+    "coupons_sold":10,
+    "coupons_left":5,
+    "likes":50,
+    "rating":4,
+    "Review":"",
+    "images": ["IndegobyVineet.JPG","IndegobyVineet2.JPG","IndegobyVineet3.JPG"]
+  },
+  {
+    "tags":"eating",
+    "activity":"Armani Ristorante-Italian Restaurant",
+    "distance":14,
+    "duration":4,
+    "closing_in":20,
+    "next_starts_on":60,
+    "price":150,
+    "coupons_sold":10,
+    "coupons_left":10,
+    "likes":120,
+    "rating":3,
+    "Review":"",
+    "images":["Armaniristorante.JPG","Armaniristorante2.JPG","Armaniristorante3.JPG"]
+  },
+  {
+    "tags":"events",
+    "activity":"Horse Racing",
+    "distance":30,
+    "duration":5,
+    "closing_in":10,
+    "next_starts_on":100,
+    "price":100,
+    "coupons_sold":10,
+    "coupons_left":3,
+    "likes":50,
+    "rating":3.5,
+    "Review":"",
+    "images":["Dubai-World-Cup.JPG","Dubai-World-Cup2.JPG","Dubai-World-Cup3.JPG"]
+  },
+  {
+    "tags":"medical",
+    "activity":"Dental Care",
+    "distance":8,
+    "duration":3,
+    "closing_in":30,
+    "next_starts_on":60,
+    "price":100,
+    "coupons_sold":10,
+    "coupons_left":8,
+    "likes":100,
+    "rating":2,
+    "Review":"",
+    "images":["DentalCare.JPG","DentalCare2.JPG","DentalCare3.JPG"]
+  },
+  {
+    "tags":"medical",
+    "activity":"Facial Rejuvnation",
+    "distance":14,
+    "duration":4,
+    "closing_in":20,
+    "next_starts_on":60,
+    "price":150,
+    "coupons_sold":10,
+    "coupons_left":10,
+    "likes":120,
+    "rating":3,
+    "Review":"",
+    "images":["Facial-Rejuvenation.JPG","Facial-Rejuvenation2.JPG","Facial-Rejuvenation3.JPG"]
+  }
+]
