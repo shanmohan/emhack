@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "activity": "Golf @ ",
+      "duration": 5,
+      "amount": 100,
+      "distance": "10 KM",
+      "tags": [
+        "sports",
+        "leisure",
+        "shopping",
+        "eating",
+        "adventure",
+        "medical",
+        "events",
+        "health"
+      ],
+      "images": [
+        "x.jpg",
+        "y.jog",
+        "z.jpg"
+      ],
+      "total_coupons": 10,
+      "coupons_left": 5
+    }
+  ]
+}
