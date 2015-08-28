@@ -1,18 +1,35 @@
-<h4>Price: {{ priceSlider | json }}</h4>
-
-<div>
+<div ng-controller="MainController">
+  <div>
     <rzslider rz-slider-model="priceSlider"
-    rz-slider-floor="100"
-    rz-slider-ceil="2000"></rzslider>
-</div>
+              rz-slider-floor="100"
+              rz-slider-ceil="2000"></rzslider>
+  </div>
+  <div>
+    <rzslider rz-slider-model="timeSlider"
+              rz-slider-floor="1"
+              rz-slider-ceil="24"></rzslider>
+  </div>
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-primary"
+           ng-repeat="tag in ['sports','leisure','shopping','eating','adventure','medical','events','health']">
+      <input type="checkbox" autocomplete="off"> {{tag}}<span>&nbsp;</span>
+    </label>
+  </div>
 
+  <h4>Results</h4>
 
-<div class="list-group">
-    <a href="#" class="list-group-item " ng-repeat="i in [2,3,4]">
-    <h4 class="list-group-item-heading"></h4>
-    <p class="list-group-item-text">Price</p>
-    <p class="list-group-item-text">Distance</p>
-    <p class="list-group-item-text">Duration</p>
-    <button class="btn btn-warning">Book Now</button>
+  <div class="list-group">
+    <a href="#" class="list-group-item " ng-repeat="product in filterProducts(priceSlider, timeSlider)">
+      <h4 class="list-group-item-heading">{{product.activity}}</h4>
+
+      <p class="list-group-item-text">Price : {{product.price}}AED</p>
+
+      <p class="list-group-item-text">Distance : {{product.distance}}</p>
+
+      <p class="list-group-item-text">Duration : {{product.duration}}</p>
+
+      <p class="list-group-item-text">Likes : {{product.likes}}</p>
+      <button class="btn btn-warning">Book Now</button>
     </a>
+  </div>
 </div>
