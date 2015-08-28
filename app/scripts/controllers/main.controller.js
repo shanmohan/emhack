@@ -8,12 +8,12 @@
  * Controller of the ngDirDepthNWideApp
  */
 angular.module('emhackApp').controller('MainController', function ($scope, dataService) {
-  $scope.priceSlider = 1500;
-  $scope.timeSlider = 18;
+  $scope.priceSlider = 500;
+  $scope.timeSlider = 5;
   var promise = dataService.getProducts();
 
   promise.then(function (data) {
-    $scope.products = data.products;
+    $scope.products = data;
 
   });
 
@@ -46,15 +46,16 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
     if (!$scope.events) selectedTags.push('events');
     if (!$scope.health) selectedTags.push('health');
 
+    return (selectedTags.indexOf(productTags)>-1);
 
-    angular.forEach(productTags,function(tag){
-      if (selectedTags.indexOf(tag)>-1){
-        isSelected = true;
-        return;
-      }
-    });
-
-    return isSelected;
+    //angular.forEach(productTags,function(tag){
+    //  if (selectedTags.indexOf(tag)>-1){
+    //    isSelected = true;
+    //    return;
+    //  }
+    //});
+    //
+    //return isSelected;
   }
 
   $scope.filterProducts = function (cost, time) {
