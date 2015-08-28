@@ -9,6 +9,7 @@
  */
 angular.module('emhackApp').controller('MainController', function ($scope, dataService) {
 
+        $scope.priceSlider = 250;
   var promise = dataService.getProducts();
 
   console.log('calling the dataService');

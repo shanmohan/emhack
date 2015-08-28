@@ -1,17 +1,18 @@
-<!-- http://jsfiddle.net/pq7yr6d6/ -->
+<h4>Price: {{ priceSlider | json }}</h4>
 
-<h4>Price</h4>
 <div>
-    <rzslider rz-slider-model="priceSlider"></rzslider>
+    <rzslider rz-slider-model="priceSlider"
+    rz-slider-floor="100"
+    rz-slider-ceil="2000"></rzslider>
 </div>
 
 
 <div class="list-group">
-  <a href="#" class="list-group-item " ng-repeat="i in [2,3,4]">
+    <a href="#" class="list-group-item " ng-repeat="i in [2,3,4]">
     <h4 class="list-group-item-heading"></h4>
     <p class="list-group-item-text">Price</p>
     <p class="list-group-item-text">Distance</p>
     <p class="list-group-item-text">Duration</p>
     <button class="btn btn-warning">Book Now</button>
-  </a>
+    </a>
 </div>
