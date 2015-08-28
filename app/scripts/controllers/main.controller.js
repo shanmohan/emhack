@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the ngDirDepthNWideApp
  */
-angular.module('emhackApp').controller('MainController', function ($scope, dataService) {
+angular.module('emhackApp').controller('MainController', function ($scope, dataService,$state) {
   $scope.priceSlider = 1500;
   $scope.timeSlider = 18;
   var promise = dataService.getProducts();
@@ -16,6 +16,10 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
     $scope.products = data.products;
 
   });
+
+  $scope.OnbuyBtnClicked = function OnbuyBtnClicked(){
+    $state.go("hotels");
+  }
 
   $scope.checkChanged = function(){
      var cost = $scope.priceSlider;

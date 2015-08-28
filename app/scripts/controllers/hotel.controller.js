@@ -10,13 +10,14 @@ angular.module('emhackApp').controller('HotelController', function ($scope,skysc
     $scope.cars = [];
     for(var i=0;i<response.data.cars.length;i++){
       var elt =response.data.cars[i];
-      elt.url = response.data.images[i].url;
-      if(i===100)break;
+      elt.url = response.data.images[i+10].url;
+      if(i===10)break;
       $scope.cars.push(elt);
     }
     console.log($scope.cars);
   }) ;
 
 	}
+  $scope.getCarOptions();
 
 })
