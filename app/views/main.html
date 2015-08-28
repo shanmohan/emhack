@@ -10,10 +10,14 @@
               rz-slider-ceil="24"></rzslider>
   </div>
   <div class="btn-group" data-toggle="buttons">
-    <label class="btn btn-primary"
-           ng-repeat="tag in ['sports','leisure','shopping','eating','adventure','medical','events','health']">
-      <input type="checkbox" autocomplete="off"> {{tag}}<span>&nbsp;</span>
-    </label>
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="sports" /><span>Sports</span>
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="leisure" />Leisure
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="shopping" />Shopping
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="eating" />Eating
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="adventure" />Adventure
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="medical" />Medical
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="events" />Events
+      <input type="checkbox" autocomplete="off" ng-change="checkChanged()" ng-model="health" />Health
   </div>
 
   <h4>Results</h4>
