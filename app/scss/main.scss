@@ -3,6 +3,12 @@
 //Bootstrap
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
-@import "ionicons/scss/ionicons.scss";
+@import "../bower_components/ionicons/scss/ionicons.scss";
 @import "material-bootstrap/_bootswatch.scss";
 
+//Project
+@import "utilities.scss";
+
+body{
+    font-family: 'Work Sans';
+}

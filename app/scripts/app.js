@@ -8,4 +8,5 @@
  *
  * Main module of the application.
  */
-angular.module('emhackApp', []);
+angular
+  .module('emhackApp', ['rzModule']);
