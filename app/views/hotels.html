@@ -1,6 +1,10 @@
-<div style="margin-bottom: 10px; border-bottom: dotted" ng-repeat="car in cars">
-  <div class="row">
-    <div class="col-xs-4"><img src="{{car.url}}"></div>
+
+<div style="margin-top: 15px;" >
+  <div style="margin-bottom: 10px; border-bottom: dotted" class="row" ng-repeat="car in cars">
+    <div class="col-xs-4">
+      <img src="{{car.url}}">
+      <a>select</a>
+    </div>
     <div class="col-xs-7 col-xs-offset-1">
       <span> <b> Sipp : </b> {{car.sipp}} </span>
       <span> <b> Seats : </b> {{car.seats}} </span>
