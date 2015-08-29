@@ -2,10 +2,10 @@
   <div class="row collapse in"  id="collapseExample">
 
   <div class="well pit-filter clearfix">
-   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight to on <strong>EK414</strong> to Sydney leaves in <strong>{{timeSlider}}</strong> hours. How about having some fun while you wait?</h4>
+   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight to on <strong>EK414</strong> to Sydney leaves in <strong>{{timeSlider+1}}</strong> hours. How about having some fun while you wait?</h4>
 
       <div class="col-sm-6">
-        <h4>How much you can spent?</h4>
+        <h4>How much you can spent? (in AED)</h4>
         <div>
           <rzslider rz-slider-model="priceSlider"
                     rz-slider-floor="50"
@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <h4>How long you can spent?</h4>
+        <h4>How long you can spent? (in Hours)</h4>
         <div>
           <rzslider rz-slider-model="timeSlider"
                     rz-slider-floor="1"
