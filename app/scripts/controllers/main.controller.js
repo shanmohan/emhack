@@ -18,7 +18,7 @@ angular.module('emhackApp').controller('MainController', function ($scope, dataS
   });
 
   $scope.OnbuyBtnClicked = function OnbuyBtnClicked(){
-    $state.go("hotels");
+    // $state.go("hotels");
   }
 
   $scope.checkChanged = function(){

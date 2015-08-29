@@ -21,8 +21,8 @@ angular.module('emhackApp', ['rzModule','ui.router', 'ui.bootstrap']).config(fun
       url: '/streetview',
       templateUrl : '/views/street-view.html',
       controller: 'StreetController'
-    }).state('hotels', {
-      url: '/hotels',
+    }).state('cars', {
+      url: '/cars',
       templateUrl : '/views/hotels.html',
       controller: 'HotelController'
     });

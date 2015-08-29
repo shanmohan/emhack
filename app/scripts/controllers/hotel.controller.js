@@ -4,6 +4,10 @@
 
 angular.module('emhackApp').controller('HotelController', function ($scope,skyscannerService) {
 
+
+  $scope.bookCar = function(){
+    $scope.bookedcar = true;
+  }
   $scope.cars = [];
   $scope.carImages = ["http://logos.skyscnr.com/images/carhire/sippmaps/volkswagen_beetle.jpg",
     "http://logos.skyscnr.com/images/carhire/sippmaps/toyota_auris_hybrid.jpg",

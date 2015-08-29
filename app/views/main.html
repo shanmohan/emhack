@@ -2,10 +2,10 @@
   <div class="row collapse in"  id="collapseExample">
 
   <div class="well pit-filter clearfix">
-   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight to on <strong>EK414</strong> to Sydney leaves in <strong>{{timeSlider+1}}</strong> hours. How about having some fun while you wait?</h4>
+   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight <strong>EK414</strong> to Sydney leaves in <strong>7 hours</strong>. How about having some fun while you wait?</h4>
 
       <div class="col-sm-6">
-        <h4>How much you can spent? (in AED)</h4>
+        <h4><span class="label label-warning"><i class="ion-card"></i></span> How much you can spent?</h4>
         <div>
           <rzslider rz-slider-model="priceSlider"
                     rz-slider-floor="50"
@@ -13,80 +13,74 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <h4>How long you can spent? (in Hours)</h4>
+        <h4><span class="label label-warning"><i class="ion-ios-clock-outline"></i></span> How long you can spent?</h4>
         <div>
           <rzslider rz-slider-model="timeSlider"
                     rz-slider-floor="1"
                     rz-slider-ceil="6"></rzslider>
         </div>
-      </div>
+        </div>
+        <div class="col-sm-12">
+            <h4 style="margin: 25px 0 10px;"><span class="label label-warning"><i class="ion-ios-star-outline"></i></span> What you are interested?</h4>
+            <div class="btn-group pit-stop-tag-filter" data-toggle="buttons">
+                <input type="checkbox" ng-change="checkChanged()" ng-model="sports" /><span ng-class="(sports ? 'ohoh': 'hehe')">Sports</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="leisure" /><span ng-class="(leisure ? 'ohoh': 'hehe')">Leisure</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="shopping" /><span ng-class="(shopping ? 'ohoh': 'hehe')">Shopping</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="eating" /><span ng-class="(eating ? 'ohoh': 'hehe')">Eating</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="adventure" /><span ng-class="(adventure ? 'ohoh': 'hehe')">Adventure</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="medical" /><span ng-class="(medical ? 'ohoh': 'hehe')">Medical</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="events" /><span ng-class="(events ? 'ohoh': 'hehe')">Events</span>
+                <input type="checkbox" ng-change="checkChanged()" ng-model="health" /><span ng-class="(health ? 'ohoh': 'hehe')">Health</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-     <div class="col-sm-12">
-       <h4 style="margin: 25px 0 10px;">What you are interested?</h4>
 
-       <div class="btn-group pit-stop-tag-filter" data-toggle="buttons">
-        <input type="checkbox" ng-change="checkChanged()" ng-model="sports" /><span ng-class="(sports ? 'ohoh': 'hehe')">Sports</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="leisure" /><span ng-class="(leisure ? 'ohoh': 'hehe')">Leisure</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="shopping" /><span ng-class="(shopping ? 'ohoh': 'hehe')">Shopping</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="eating" /><span ng-class="(eating ? 'ohoh': 'hehe')">Eating</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="adventure" /><span ng-class="(adventure ? 'ohoh': 'hehe')">Adventure</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="medical" /><span ng-class="(medical ? 'ohoh': 'hehe')">Medical</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="events" /><span ng-class="(events ? 'ohoh': 'hehe')">Events</span>
-        <input type="checkbox" ng-change="checkChanged()" ng-model="health" /><span ng-class="(health ? 'ohoh': 'hehe')">Health</span>
-       </div>
-     </div>
-   </div>
- </div>
+
+<!--===============  Filtered results  ===============-->
 
 
   <!-- <li ng-repeat='item in filtered = (items | filter:filterExpr)'>{{item}}</li> -->
 
-  <h4>Showing <strong>{{data.length}}</strong> awesome things you can do in <strong>{{timeSlider}}</strong> hours </h4>
+  <h5>Showing <strong>{{data.length}}</strong> awesome things you can do in <strong>{{timeSlider}}</strong> hours </h5>
 
   <div class="list-group">
     <a href="#" class="list-group-item explore-list" ng-repeat="product in data  = filterProducts(priceSlider, timeSlider) ">
       <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <carousel>
-            <slide interval="500" no-wrap="true"  ng-repeat="slide in product.images track by $index">
+          <div class="col-sm-6 col-md-4">
+              <carousel>
+              <slide interval="500" no-wrap="true"  ng-repeat="slide in product.images track by $index">
               <img ng-src="images/{{slide}}" style="margin:auto; height: 250px;">
               <div class="carousel-caption">
-                <!--<h4>Slide {{$index}}</h4><p>{{slide.text}}</p> -->
+                  <!--<h4>Slide {{$index}}</h4><p>{{slide.text}}</p> -->
               </div>
-            </slide>
-          </carousel>
-        </div>
-
-        <div class="col-sm-6 col-md-8">
-          <h4 class="list-group-item-heading">{{product.activity}}</h4>
-          <span class="label label-primary" style="display:inline-block; margin:0 2px;">{{product.tags}} </span>
-
-          <div class="row">
-
-                  <div class="col-md-6">
-                    <div class="left-desc">
-                        <p><i class="ion-android-map"></i> <strong>{{product.distance}}</strong> distance</p>
-                        <p><i class="ion-android-time"></i> <strong>{{product.duration}}</strong> hours trip</p>
-                        <p><i class="ion-thumbsup"></i> <strong>{{product.likes}}</strong> travellers liked this</p>
-                        <p  ui-sref="streetview" class="text-primary"> <i class="ion-ios-navigate"></i> Street View</p>
-                      </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="right-desc">
-                        <p class="seat-info text-danger"><i class="ion-flash"></i> <span class="badge">{{product.coupons_left}}</span> seats left, hurry!</p>
-                        <h5 class="cost-info"><i class="ion-card"></i> {{product.price}} AED</h5><br/>
-                        <button class="btn-booknow btn btn-success btn-sm"  ng-click="OnbuyBtnClicked()">
-                          <i class="ion-ios-checkmark-outline"></i><span>Book Now</span>
-                        </button>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
+              </slide>
+              </carousel>
           </div>
-
-        </div>
-      </div>
+          <div class="col-sm-6 col-md-8">
+              <h4 class="list-group-item-heading">{{product.activity}}</h4>
+              <span class="label label-primary" style="display:inline-block; margin:0 2px;">{{product.tags}} </span>
+              <div class="row">
+                  <div class="col-md-6">
+                      <section class="left-desc">
+                          <p><i class="ion-android-map"></i> <strong>{{product.distance}}</strong> Km distance</p>
+                          <p><i class="ion-android-time"></i> <strong>{{product.duration}}</strong> hours trip</p>
+                          <p><i class="ion-thumbsup"></i> <strong>{{product.likes}}</strong> travellers liked this</p>
+                          <p  ui-sref="streetview" class="text-primary"> <i class="ion-ios-navigate"></i> Street View</p>
+                      </section>
+                  </div>
+                  <div class="col-md-6">
+                      <section class="right-desc">
+                          <p class="seat-info text-danger"><i class="ion-flash"></i> <span class="badge">{{product.coupons_left}}</span> seats left, hurry!</p>
+                          <h5 class="cost-info"><i class="ion-card"></i> {{product.price}} AED</h5><br/>
+                          <button class="btn-booknow btn btn-success btn-sm"  ui-sref="cars">
+                          <i class="ion-ios-checkmark-outline"></i><span>Book Now</span>
+                          </button>
+                      </section>
+                  </div>
+              </div><!--/row-->
+          </div>
+      </div><!--/row->
     </a>
-  </div>
+</div>
