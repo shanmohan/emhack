@@ -2,10 +2,10 @@
   <div class="row collapse in"  id="collapseExample">
 
   <div class="well pit-filter clearfix">
-   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight to Sydney leaves in <strong>{{timeSlider}}</strong> hours. Here are some activities for you to explore in Dubai, enjoy!</h4>
+   <h4 class="flight-quote"><i class="ion-plane"></i> Your next flight to on <strong>EK414</strong> to Sydney leaves in <strong>{{timeSlider}}</strong> hours. How about having some fun while you wait?</h4>
 
       <div class="col-sm-6">
-        <h5>Price</h5>
+        <h4>How much you can spent?</h4>
         <div>
           <rzslider rz-slider-model="priceSlider"
                     rz-slider-floor="50"
@@ -13,16 +13,16 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <h5>Duration</h5>
+        <h4>How long you can spent?</h4>
         <div>
           <rzslider rz-slider-model="timeSlider"
-                    rz-slider-floor="2"
-                    rz-slider-ceil="10"></rzslider>
+                    rz-slider-floor="1"
+                    rz-slider-ceil="6"></rzslider>
         </div>
       </div>
 
      <div class="col-sm-12">
-       <h5 style="margin: 15px 0 10px;">Activities you maybe interested in</h5>
+       <h4 style="margin: 25px 0 10px;">What you are interested?</h4>
 
        <div class="btn-group pit-stop-tag-filter" data-toggle="buttons">
         <input type="checkbox" ng-change="checkChanged()" ng-model="sports" /><span ng-class="(sports ? 'ohoh': 'hehe')">Sports</span>
@@ -41,7 +41,7 @@
 
   <!-- <li ng-repeat='item in filtered = (items | filter:filterExpr)'>{{item}}</li> -->
 
-  <h4>Showing {{data.length}} results </h4>
+  <h4>Showing <strong>{{data.length}}</strong> awesome things you can do in <strong>{{timeSlider}}</strong> hours </h4>
 
   <div class="list-group">
     <a href="#" class="list-group-item explore-list" ng-repeat="product in data  = filterProducts(priceSlider, timeSlider) ">

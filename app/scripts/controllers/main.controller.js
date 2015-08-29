@@ -9,7 +9,7 @@
  */
 angular.module('emhackApp').controller('MainController', function ($scope, dataService,$state) {
   $scope.priceSlider = 500;
-  $scope.timeSlider = 5;
+  $scope.timeSlider = 3;
   var promise = dataService.getProducts();
 
   promise.then(function (data) {
